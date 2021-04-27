@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	  <style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Prebuilt Layout</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+<style>
 a:link {
   color: White;
   background-color: transparent;
@@ -38,17 +45,8 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 </style>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap - Prebuilt Layout</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-
   </head>
   <body>
-    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
        <a class="navbar-brand" href="#">Navbar</a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,21 +66,42 @@ tr:nth-child(even) {
              
              
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+          
        </div>
     </nav>
 
     <div class="jumbotron jumbotron-fluid text-center">
-       <h1 class="display-4">VR FireTraining</h1>
+       <h1 class="display-4">Fire training VR Training app</h1>
        <p class="lead">This is the website for the VR Fire training app&nbsp;</p>
        <hr class="my-4">
+       <p>Here you can read about our project in detail</p>
+</div>
+    <div class="container"> <br>
+       <hr>
        
-      
-    </div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+
+       
+
+       <br/>
+       <div class="row">
+          <div class="col-md-6 text-center col-xl-12">
+             <div class="card">
+                <div class="card-body">
+					
+                   <h3><br>About</h3>
+                   <p>Our application is designed to enable remote and offsite education and refreshment of knowledge without tedious in person courses or talks  we achive this through a mixture of training scenes that cover the basics of fire physics, signage and appropriate extinguishing methods  and scored scenarios that enable an examiner to verify that a participent was attentive and learning througout our training scenarious.  The application  possesess database intergtration via AWS which enables any users score to be verified by an examiner even from totally different locations</p>
+                   
+					<h2><br><strong>Contents</strong><br> </h2>
+					<p>The application consists of 4 scenes, when you first launch the application you are placed in a room from which you can choose either examier or student, the examiner scene will enable an examiner to search for a students unique ID that they are provided at completeion of the exercise to verify their scores and that they completed all aspects of the training.<br> The student tab will take students into a scene in which they can enter their name to aid identification. From here their player profile is saved to the database and they continue on to the main scene<br> <br> Once the player starts the main scene they are guided up to a receptionist who will guide them to the first training room where they are taught about the use of the fire alarm and the various common fire signage, all of which must be inspected using their hands and tool tips for them to pass the scenario.<br> The next scene will inform students of the correct fire extinguishers to be used for specific fire times and their relevent signage as well as a practical use of said fire extinguisher.<br> the third training scene is the first theory scene which covers the components required for fire which leads into the final training scene which will show students all of the potential fire fighting and safty equipment they may encounter around a real life premesis. <br> <br> the final section is the scenarios, here the students are tested in a series of 3 scenarios in which they must react correctly to fire alarms and fires. this is the primary assessed segment and theur performance is based off the speed with which they reach majour milestones. the scene is populated with NPCs to stipulate crowd feelings and to test the students ability to react independant of how their peers may respond. <br> the final assessed segment is a hazzard perception section in which students are challenged to identify specidfic hazzards that could pose a real life fire risk or risk to safety.<br> <br> finally upon completion students are taken to a scene in which they can review their score and return to start.   </p>
+					
+                </div>
+             </div>
+          </div>
+</div>
+       <br>
+       <hr>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
     <script src="js/jquery-3.4.1.min.js"></script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed --> 
